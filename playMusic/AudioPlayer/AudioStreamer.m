@@ -281,16 +281,16 @@ void ASReadStreamCallBack
 	return NO;
 }
 
-- (BOOL)isIdle
-{
-    // 播放完毕, 空闲状态
-	if (state == AS_INITIALIZED)
-	{
-		return YES;
-	}
-	
-	return NO;
-}
+//- (BOOL)isIdle
+//{
+//    // 播放完毕, 空闲状态
+//	if (state == AS_INITIALIZED)
+//	{
+//		return YES;
+//	}
+//	
+//	return NO;
+//}
 
 
 //
@@ -732,7 +732,7 @@ void ASReadStreamCallBack
 		
 		if (![self openReadStream])
 		{
-			goto cleanup;
+			//goto cleanup;
 		}
 	}
 	

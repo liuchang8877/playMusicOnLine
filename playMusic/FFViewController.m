@@ -34,7 +34,7 @@
         _audioPlayer = [[AudioPlayer alloc] init];
     }
     
-    _audioPlayer.url = [NSURL URLWithString:@"http://firefrog-wordpress.stor.sinaapp.com/uploads/2013/05/1.mp3"];
+    _audioPlayer.url = [NSURL URLWithString:@"http://firefrog-wordpress.stor.sinaapp.com/uploads/2013/06/20130605151507.mp3"];
     
     [_audioPlayer play];
 }

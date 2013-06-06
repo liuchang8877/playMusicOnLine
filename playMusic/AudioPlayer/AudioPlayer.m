@@ -56,11 +56,11 @@
                                              invocation:invocation 
                                                 repeats:YES];
         
-        // register the streamer on notification
-        [[NSNotificationCenter defaultCenter] addObserver:self
-                                                 selector:@selector(playbackStateChanged:)
-                                                     name:ASStatusChangedNotification
-                                                   object:streamer];
+//        // register the streamer on notification
+//        [[NSNotificationCenter defaultCenter] addObserver:self
+//                                                 selector:@selector(playbackStateChanged:)
+//                                                     name:ASStatusChangedNotification
+//                                                   object:streamer];
     }
     
     if ([streamer isPlaying]) {
